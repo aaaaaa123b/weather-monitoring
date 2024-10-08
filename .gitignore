@@ -1,0 +1,17 @@
+.idea
+*.iml
+
+weather-sensor/.idea
+monitoring-server/.idea
+
+weather-sensor/target
+monitoring-server/target
+
+weather-sensor/.mvn
+monitoring-server/.mvn
+
+weather-sensor/mvnw
+monitoring-server/mvnw
+
+auditable-starter/mvnw.cmd
+logging-starter/mvnw.cmd

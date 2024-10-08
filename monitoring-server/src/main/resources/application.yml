@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: monitoring-server
+  datasource:
+    url: jdbc:postgresql://localhost:5432/weather_db
+    username: postgres
+    password: 4021
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

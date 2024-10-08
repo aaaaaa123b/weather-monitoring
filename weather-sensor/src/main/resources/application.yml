@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: weather-sensor
+
+monitoring-server:
+  register-url: http://localhost:8080/sensors/registration
+  measurement-url: http://localhost:8080/sensors/{key}/measurements
+
+server:
+  port: 8888
